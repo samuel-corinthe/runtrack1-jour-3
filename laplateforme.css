@@ -15,7 +15,7 @@ body{
     flex-direction: column;
  flex-wrap: nowrap;
     width: 100vw;
-    overflow-x: hidden;
+  
 }
 main{
     display: flex;
@@ -26,15 +26,18 @@ main{
     width: 100%;
 }
 
+
 .navbar{
     margin: 0%;
     padding: 0%;
     width: 100%;
 }
 .navmenu{
+    list-style: none;
     margin: 0%;
     display: flex;
     align-items: flex-start;
+    flex-wrap: wrap;
     flex-direction: row ;
     background: var(--tertiary-color);
     justify-content: space-between;
@@ -44,12 +47,19 @@ main{
     width: 100vw;
     object-fit: contain;
 }
+.navmenu :first-child{
+    justify-self: flex-start;
+}
+
+
+
 .navlink {
     margin: 0%;
     padding: 0%;
-    width: 100vw;
     display: flex;
-
+    width: auto;
+    padding-left: 25px;
+    padding-right: 25px;
 }
 
 .left{align-content: center;
@@ -152,6 +162,7 @@ width: 100%;
 }
 
 #p-about{
+    margin: 15px;
     font-size: 20px;
     color: rgb(80, 78, 74);
 }
