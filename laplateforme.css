@@ -21,13 +21,13 @@ main{
     flex: 1;
     margin: 0%;
     padding: 0%;
-    width: 100vw;
+    width: 100%;
 }
 
 .navbar{
     margin: 0%;
     padding: 0%;
-    width: 100vw
+    width: 100%;
 }
 .navmenu{
     margin: 0%;
@@ -43,10 +43,11 @@ main{
     object-fit: contain;
 }
 .navlink {
+    margin: 0%;
+    padding: 0%;
     width: 100vw;
     display: flex;
-    padding-left: 55px;
-    padding-right: 55x;
+
 }
 
 .left{align-content: center;
@@ -116,6 +117,7 @@ li a:hover {
 .right{
     width: 45vw;
     height: 80vh;
+    margin: 0%;
 }
 
 .right img{
@@ -127,7 +129,7 @@ li a:hover {
 margin: 0%;
 padding: 0%;
 height: 20vh;
-width: 100vw;
+width: 100%;
 }
 
 .topabout{
