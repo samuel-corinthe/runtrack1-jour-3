@@ -6,6 +6,7 @@
 }
 
 body{
+    text-align: center;
     font-family: "Roboto", sans-serif;
     justify-content: center;
     display: flex;
@@ -14,6 +15,7 @@ body{
     flex-direction: column;
  flex-wrap: nowrap;
     width: 100vw;
+    overflow-x: hidden;
 }
 main{
     display: flex;
