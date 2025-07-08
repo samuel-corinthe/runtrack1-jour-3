@@ -10,16 +10,20 @@ body{
     justify-content: center;
     display: flex;
     margin: 0%;
+    padding: 0%;
     flex-direction: column;
  flex-wrap: nowrap;
-    height: 100%;
     width: 100vw;
 }
 main{
     display: flex;
     flex-direction: row;
     flex: 1;
+    margin: 0%;
+    padding: 0%;
+    width: 100vw;
 }
+
 .navmenu{
     margin: 0%;
     display: flex;
@@ -29,13 +33,14 @@ main{
     justify-content: space-between;
         align-items: center;
     justify-content: center;
-    padding-bottom: 0%;
+    padding: 0%;
+    width: 100vw;
+    object-fit: contain;
 }
 .navlink {
     display: flex;
     padding-left: 55px;
     padding-right: 55x;
-   
 }
 
 .left{align-content: center;
@@ -100,7 +105,7 @@ li a:hover {
 }
 
 .right{
-    width: 50vw;
+    width: 45vw;
     height: 80vh;
 }
 
@@ -184,7 +189,6 @@ iframe{
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    padding: 30px;
     margin: 0%;
     width: 100vw;
     background: var(--primary-color);
